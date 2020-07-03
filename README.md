@@ -39,4 +39,4 @@
 
 ## DB 설계
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a116423-58af-4d8c-a1a5-b79c059636ea/_2020-07-01__2.43.15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3a116423-58af-4d8c-a1a5-b79c059636ea/_2020-07-01__2.43.15.png)
+https://www.notion.so/eunjus/cfd33318e64747a89b435878656dc2c0#8afba15d47084deaa827543618c5340b
