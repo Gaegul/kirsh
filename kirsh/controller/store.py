@@ -23,6 +23,7 @@ def store_detail(store_id):
                 "description": store.description,
                 "score": store.score,
                 "average_price": store.average_score,
+                "picture": store.picture,
                 "store_review": [{
                     "content": store_review.content,
                     "score": store_review.score,

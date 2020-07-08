@@ -9,7 +9,7 @@ def ranking(search):
 
     try:
         stores = session.query(Store).filter(Store.name.like(f'%{search}%')).order_by(Store.ranking).all()
-        
+
         if stores:
             return [{
                 "id": store.id,
@@ -17,7 +17,8 @@ def ranking(search):
                 "name": store.name,
                 "description": store.description,
                 "score": store.score,
-                "average_price": store.average_score
+                "average_price": store.average_score,
+                "picture": store.picture
             }for store in stores]
 
         else:
