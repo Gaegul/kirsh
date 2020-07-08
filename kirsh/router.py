@@ -13,3 +13,6 @@ api_basic.add_resource(Login, "/login")
 
 from kirsh.view.ranking import Ranking
 api_basic.add_resource(Ranking, "/ranking")
+
+from kirsh.view.store import Store
+api_basic.add_resource(Store, "/<store_id>")
