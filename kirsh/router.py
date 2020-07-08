@@ -19,3 +19,6 @@ api_basic.add_resource(Store, "/<store_id>")
 
 from kirsh.view.review import StoreReview
 api_basic.add_resource(StoreReview, "/<store_id>/review")
+
+from kirsh.view.review import ProductReview
+api_basic.add_resource(ProductReview, "/<store_id>/review/product")
