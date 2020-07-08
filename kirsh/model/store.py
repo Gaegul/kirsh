@@ -13,3 +13,4 @@ class Store(Base):
     score = Column(Integer, nullable=True)
     average_score = Column(Integer, nullable=False)
     ranking = Column(Integer, nullable=True)
+    picture = Column(String(200), nullable=False)
