@@ -20,7 +20,7 @@ def sign_up(id, password, name):
 
     return {
         "message": "Successfully signed up"
-    }
+    }, 201
 
 
 def login(id, password):
